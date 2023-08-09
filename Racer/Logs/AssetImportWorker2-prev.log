@@ -1,0 +1,408 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.28f1 (232e59c3f087) revision 2305625'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/racer/racer/Racer
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63454
+Successfully changed project path to: D:/racer/racer/Racer
+D:/racer/racer/Racer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18240] Host "[IP] 192.168.67.101 [Port] 0 [Flags] 2 [Guid] 114520437 [EditorId] 114520437 [Version] 1048832 [Id] WindowsEditor(7,KafuuChino) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18240] Host "[IP] 192.168.67.101 [Port] 0 [Flags] 2 [Guid] 114520437 [EditorId] 114520437 [Version] 1048832 [Id] WindowsEditor(7,KafuuChino) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 74.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.28f1 (232e59c3f087)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/racer/racer/Racer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006441 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 295 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (635ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (392ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003037 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\racer\racer\Racer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\racer\racer\Racer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.4 KB). Loaded Objects now: 3517.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 5.861500 ms (FindLiveObjects: 0.671100 ms CreateObjectMapping: 0.410200 ms MarkObjects: 4.659000 ms  DeleteObjects: 0.118900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 879193.780271 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit
+  artifactKey: Guid(524acd5a5ba1031488c5bd877d7bc88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit using Guid(524acd5a5ba1031488c5bd877d7bc88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0497ff2dd8c49bf45bd6b3f8f4cf23d8') in 0.015432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058750 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/bannerTowerGreen.fbx
+  artifactKey: Guid(f3dca97a636456142a2201e74da1cd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/bannerTowerGreen.fbx using Guid(f3dca97a636456142a2201e74da1cd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc11a5926a7ba22a183fb8731e18941b') in 0.222551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/fenceStraight.fbx
+  artifactKey: Guid(5eeac2c0f2dd27b4d8faa8fd7477e3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/fenceStraight.fbx using Guid(5eeac2c0f2dd27b4d8faa8fd7477e3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5094c93bf20695a74be8d561faa9ffd8') in 0.064547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/barrierWhite.fbx
+  artifactKey: Guid(f3ef4a70b5f23304e87f07f848ae8f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/barrierWhite.fbx using Guid(f3ef4a70b5f23304e87f07f848ae8f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c69d6e3e63419708249e563cde0ab7') in 0.031325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/billboard.fbx
+  artifactKey: Guid(d9b03a652ace8564998c3240dc0d25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/billboard.fbx using Guid(d9b03a652ace8564998c3240dc0d25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213225bf1a545431ab1644e3a7ae8bc7') in 0.042327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/flagCheckersSmall.fbx
+  artifactKey: Guid(26a2f8d6509d74240bd328acb75851f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/flagCheckersSmall.fbx using Guid(26a2f8d6509d74240bd328acb75851f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0273ca0d85674dd5bc79ec7393685f') in 0.041277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/grandStandAwning.fbx
+  artifactKey: Guid(19c6bcf1bfb17e146847b0c124c89067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/grandStandAwning.fbx using Guid(19c6bcf1bfb17e146847b0c124c89067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2501f80b0699e76bd42993a8fed6f69d') in 0.045492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.871132 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/grandStandCoveredRound.fbx
+  artifactKey: Guid(2b6619235612ac84488cd86d347e5617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/grandStandCoveredRound.fbx using Guid(2b6619235612ac84488cd86d347e5617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa21fa2311efb8dac9ff3dfbbe68eb40') in 0.047692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/lightPostLarge.fbx
+  artifactKey: Guid(67a9cfe6c7099e042b3c42c2c3936ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/lightPostLarge.fbx using Guid(67a9cfe6c7099e042b3c42c2c3936ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86293d1ce51153d2b556c8eed1dd433') in 0.042201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/raceCarOrange.fbx
+  artifactKey: Guid(896db3a4132217944aaeb81ecf4924e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/raceCarOrange.fbx using Guid(896db3a4132217944aaeb81ecf4924e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c2fa715ee5839ce66a0be6a71cb77b') in 0.081004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/radarEquipment.fbx
+  artifactKey: Guid(adc5d2bc803d6504fbe5b8b5e7d8d324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/radarEquipment.fbx using Guid(adc5d2bc803d6504fbe5b8b5e7d8d324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba9a2efa58cfcec1b47370f89c7aec3') in 0.033464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/overheadRoundColored.fbx
+  artifactKey: Guid(2e8f03cc670a9f54f9079f093e95bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/overheadRoundColored.fbx using Guid(2e8f03cc670a9f54f9079f093e95bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b1b78aaa6e43ef79ec88fa8c4b1b2f') in 0.031348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/pitsOfficeCorner.fbx
+  artifactKey: Guid(138619f338d18a442a980e66a0827062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/pitsOfficeCorner.fbx using Guid(138619f338d18a442a980e66a0827062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb559ef63d9cee77923e5ad27851361') in 0.037433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/lightRed.fbx
+  artifactKey: Guid(666dbd026f34f044b8d4c834d5379212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/lightRed.fbx using Guid(666dbd026f34f044b8d4c834d5379212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9f7c14931f290b8b319c0e1efbbec8') in 0.049476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/pylon.fbx
+  artifactKey: Guid(1160ff10d55a4dc469f14c1269e06e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/pylon.fbx using Guid(1160ff10d55a4dc469f14c1269e06e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185f250e4e26b62f5dcc5abbab8b0901') in 0.031631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/overhead.fbx
+  artifactKey: Guid(cabf41042638dc04f8daa6ebc6a1a122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/overhead.fbx using Guid(cabf41042638dc04f8daa6ebc6a1a122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3d6cb9fcbb9ae7022cc41c284f15ff') in 0.032322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.501985 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/rail.fbx
+  artifactKey: Guid(25e0a67b226a84c44814d805c2c6e3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/rail.fbx using Guid(25e0a67b226a84c44814d805c2c6e3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48643264dd16beee988a62e52e32c4a1') in 0.027830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargeBorder.fbx
+  artifactKey: Guid(914ff548f4ee98c4c8d0497e1a812dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargeBorder.fbx using Guid(914ff548f4ee98c4c8d0497e1a812dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5203e0a6b5c54a29e3e27e12dc6dfd9f') in 0.029934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargerSandInner.fbx
+  artifactKey: Guid(d1289da3ba16e2b488af10ece8cf1dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargerSandInner.fbx using Guid(d1289da3ba16e2b488af10ece8cf1dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b68d1c886cd6e4de11858356769b32') in 0.028565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerSmallSand.fbx
+  artifactKey: Guid(73e737b1afe73bf45ac31dc0df9d49e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerSmallSand.fbx using Guid(73e737b1afe73bf45ac31dc0df9d49e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d7cfa2c96bb5cbc10134f66ce3f6c0') in 0.027434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargerWall.fbx
+  artifactKey: Guid(1e83a07a3b4ac7e46b7be81d3ed1b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargerWall.fbx using Guid(1e83a07a3b4ac7e46b7be81d3ed1b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f41835161caac408983bf822f914580') in 0.032699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargerBorder.fbx
+  artifactKey: Guid(a787f5d0c7f7eca47bd89324a9044e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargerBorder.fbx using Guid(a787f5d0c7f7eca47bd89324a9044e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ef8e11e302523f4518a9c26be1fe16') in 0.033448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargeBorderInner.fbx
+  artifactKey: Guid(a9023fb0cd7c0c54ba8d383ad771eced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargeBorderInner.fbx using Guid(a9023fb0cd7c0c54ba8d383ad771eced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e897fe00eaed45c88e15dc184656121') in 0.032270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargerSand.fbx
+  artifactKey: Guid(02056003caf8b5642835b89e4ca0d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerLargerSand.fbx using Guid(02056003caf8b5642835b89e4ca0d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884c35898fbac0ffd81c5d8cbe122a1b') in 0.028837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerSmallSquare.fbx
+  artifactKey: Guid(e963a54c62cb6ce41814350b4a42d659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerSmallSquare.fbx using Guid(e963a54c62cb6ce41814350b4a42d659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d7b9d9fb485a9324b2f6c8a93a78f8') in 0.034886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078780 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCornerSmallWall.fbx
+  artifactKey: Guid(2ba34d22018d5b14eb796def6e2c8cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCornerSmallWall.fbx using Guid(2ba34d22018d5b14eb796def6e2c8cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00a46b38f62fe6fa978b1d65c801e65') in 0.029169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadPitStraightLong.fbx
+  artifactKey: Guid(76c02df2d189c544f91713d7d065275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadPitStraightLong.fbx using Guid(76c02df2d189c544f91713d7d065275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36868ef07fd052e2e3f6aa5f4979b519') in 0.043948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadSplitRoundLarge.fbx
+  artifactKey: Guid(dc0faa26967e296419a1a930eea7abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadSplitRoundLarge.fbx using Guid(dc0faa26967e296419a1a930eea7abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f194c7c8be09aba3ee4189fce821cb') in 0.037095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadEnd.fbx
+  artifactKey: Guid(6a0057a872c295d4c9faad715f6c6a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadEnd.fbx using Guid(6a0057a872c295d4c9faad715f6c6a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9308bb3f1d32df77bc080d94c3ae03dc') in 0.039307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadSide.fbx
+  artifactKey: Guid(fe3267bcb00004844871897fbd3137a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadSide.fbx using Guid(fe3267bcb00004844871897fbd3137a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f28c5c744ff633bdda229504ec40d2') in 0.037313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadCurvedSplit.fbx
+  artifactKey: Guid(44dddf9060cb3b542902b62ad1aa01d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadCurvedSplit.fbx using Guid(44dddf9060cb3b542902b62ad1aa01d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294580cde3fab2a40b636508659bb0a0') in 0.037664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadRamp.fbx
+  artifactKey: Guid(f08458919fa449441811f29a6d627b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadRamp.fbx using Guid(f08458919fa449441811f29a6d627b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c9b27b4a4ad62aeb580448e59fd5ed') in 0.036962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadStraightBridgeMid.fbx
+  artifactKey: Guid(1696d7d3615b94f4cb689a02c7d59c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadStraightBridgeMid.fbx using Guid(1696d7d3615b94f4cb689a02c7d59c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f345c435932c4a8c6f310ee10723cab') in 0.040390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadStraightBridge.fbx
+  artifactKey: Guid(001048aded206794e9949808012a7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadStraightBridge.fbx using Guid(001048aded206794e9949808012a7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c0fa659e3f17713401fb2f56ff3ce9') in 0.046080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/tentClosed.fbx
+  artifactKey: Guid(6eef0497592f1db42b91359ef6901a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/tentClosed.fbx using Guid(6eef0497592f1db42b91359ef6901a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff858aed8ad6ccb214a9d7e87102458') in 0.031817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/treeSmall.fbx
+  artifactKey: Guid(e6f437e63b29bcc4bb4298386c4864d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/treeSmall.fbx using Guid(e6f437e63b29bcc4bb4298386c4864d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1276df05bc997decc257b7564092df') in 0.036527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/treeLarge.fbx
+  artifactKey: Guid(fe3071a8255f42d448c5feb767a92b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/treeLarge.fbx using Guid(fe3071a8255f42d448c5feb767a92b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe07506a0539f222fae7e42f2460463') in 0.036692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/tent.fbx
+  artifactKey: Guid(0769671249457974c84835bed83b242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/tent.fbx using Guid(0769671249457974c84835bed83b242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec97cdfccd9c409f68b4f04dacb88aa') in 0.034941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kit/Models/Kenney/Racing Kit/roadStraightLongBumpRound.fbx
+  artifactKey: Guid(feeb2a30a0157404f9ad29eb6eb077dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Models/Kenney/Racing Kit/roadStraightLongBumpRound.fbx using Guid(feeb2a30a0157404f9ad29eb6eb077dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ab80931dbbbdc8ceb8f5ea39a1e9c9') in 0.036013 seconds 
